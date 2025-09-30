@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul { 
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+nav ul li {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+}
+body {
+    background-color: rgb(29, 65, 93);
+}
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    color: antiquewhite;
+    font-family: yu 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background-color: rgb(62, 110, 157);
+}
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+.direccion {
+    margin-bottom: 50px;
+    margin-top: 150px;
+    
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.proyeccion {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.Pie-pagina {
+    background-color: rgb(62, 110, 157);
+}
+footer{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 200px;
+
+}
+li{
+    margin: 8px;
+}
+p{
+    margin: 8px; 
+    color: aliceblue;
+}
+.footer { 
+    margin-top: 40px;
+}
+footer a {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    color: rgb(197, 170, 170);
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+ul li {
+    color: aliceblue;
+}
+h3 {
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.imagenes {
+    text-align: center;
+    margin: 40px;   
+}
+.banos {
+    text-align: center;
+    
+}
+#banos {
+    background-color: rgb(62, 110, 157);
+}
+#cocinas {
+    background-color: rgb(62, 110, 157);
+
+}
+.cocinas {
+    text-align: center;
+}
+#dormitorios {
+    background-color: rgb(62, 110, 157);
+}
+.dormitorios {
+    text-align: center;
+}
+#espacios-comunes {
+    background-color: rgb(62, 110, 157);
+}
+.espacios-comunes {
+    text-align: center  ;
+}
+#vistas{
+    background-color: rgb(62, 110, 157);
+}
+.vistas {
+    text-align: center;
+}
+#materiales {
+    background-color: rgb(62, 110, 157);
+}
+.materiales {
+    text-align: center;
+}
+#accesos {
+    background-color: rgb(62, 110, 157);
+}
+.accesos {
+    text-align: center;
+}
+#galerias {
+    background-color: rgb(62, 110, 157);
+}
+.galerias {
+    text-align: center;
+}
