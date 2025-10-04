@@ -141,3 +141,9 @@ h3 {
 .galerias {
     text-align: center;
 }
+.header-contacto :hover {
+    color: darkkhaki;
+}
+.header-galeria :hover {
+    color: darkkhaki;;
+}
