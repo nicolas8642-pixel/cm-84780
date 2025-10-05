@@ -112,8 +112,8 @@ h3 {
 
 .principal {
     display: grid;
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: 100px 100px auto;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 100px auto 50px ;
     grid-template-areas: 
     'direccion direccion direccion'
     'proyeccion proyeccion proyeccion'
