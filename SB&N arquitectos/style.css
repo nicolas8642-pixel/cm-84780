@@ -105,6 +105,7 @@ h3 {
 .galerias {
     text-align: center;
 }
+
 .footer {
     display: flex;
     flex-shrink: 1;
@@ -126,4 +127,10 @@ h3 {
 .proyeccion {
     background-color: red;
     grid-area: proyeccion ;
+}
+.header-contacto :hover {
+    color: darkkhaki;
+}
+.header-galeria :hover {
+    color: darkkhaki;
 }
