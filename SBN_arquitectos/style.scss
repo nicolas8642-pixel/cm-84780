@@ -1,3 +1,15 @@
+@import 'variables';
+.telefono-dropdown:hover {
+    color: $color-hover-links;
+    text-decoration: underline;
+}
 body {
-    background-color: red;
+    background-color: beige;
+}
+
+.barra-de-navegacion {
+    background-color: #c9936dad;
+}
+.dropdown-menu {
+    background-color: #c9936dad;
 }

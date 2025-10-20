@@ -1,5 +1,19 @@
+/* Variables Index */
+.telefono-dropdown:hover {
+  color: rgb(62, 62, 231);
+  text-decoration: underline;
+}
+
 body {
-  background-color: red;
+  background-color: beige;
+}
+
+.barra-de-navegacion {
+  background-color: rgba(201, 147, 109, 0.6784313725);
+}
+
+.dropdown-menu {
+  background-color: rgba(201, 147, 109, 0.6784313725);
 }
 
 /*# sourceMappingURL=style.css.map */
