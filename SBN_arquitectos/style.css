@@ -1,7 +1,12 @@
 /* Variables Index */
-.telefono-dropdown:hover {
-  color: rgb(62, 62, 231);
-  text-decoration: underline;
+.dropdown-item:hover {
+  display: flex;
+  background-color: rgba(201, 147, 109, 0.6784313725);
+  width: 13em;
+  height: 2em;
+  border-color: black;
+  border: 4px;
+  border-radius: 2px;
 }
 
 body {
@@ -14,6 +19,11 @@ body {
 
 .dropdown-menu {
   background-color: rgba(201, 147, 109, 0.6784313725);
+}
+
+.telefono-dropdown {
+  color: rgb(62, 62, 231);
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

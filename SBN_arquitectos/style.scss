@@ -1,7 +1,14 @@
 @import 'variables';
-.telefono-dropdown:hover {
-    color: $color-hover-links;
-    text-decoration: underline;
+.dropdown-item:hover {
+    display: flex;
+    background-color:  #c9936dad;
+    width: 13em;
+    height: 2em;
+    border-color: black;
+    border: 4px;
+    border-radius: 2px;
+
+
 }
 body {
     background-color: beige;
@@ -12,4 +19,8 @@ body {
 }
 .dropdown-menu {
     background-color: #c9936dad;
+}
+.telefono-dropdown {
+    color: $color-hover-links;
+    text-decoration: underline;
 }
