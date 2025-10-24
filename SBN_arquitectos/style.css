@@ -41,7 +41,7 @@ body, header, .navbar, .container-fluid {
 .principal {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr) auto;
+  grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "direccion direccion direccion" "proyeccion proyeccion proyeccion" "footer footer footer";
 }
 
@@ -69,6 +69,11 @@ body, header, .navbar, .container-fluid {
     background-position: 50% 82%;
     color: white;
   }
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: footer;
 }
 
 /*# sourceMappingURL=style.css.map */
