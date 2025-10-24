@@ -1,29 +1,74 @@
 /* Variables Index */
 .dropdown-item:hover {
   display: flex;
-  background-color: rgba(201, 147, 109, 0.6784313725);
+  background-color: #817E55;
   width: 13em;
   height: 2em;
   border-color: black;
   border: 4px;
-  border-radius: 2px;
+  border-radius: 6px;
+  text-decoration: underline;
 }
 
-body {
-  background-color: beige;
+body, header, .navbar, .container-fluid {
+  margin: 0;
+  padding: 0;
 }
 
 .barra-de-navegacion {
-  background-color: rgba(201, 147, 109, 0.6784313725);
+  background-color: #817E55;
+  color: rgba(201, 147, 109, 0.6784313725);
 }
 
 .dropdown-menu {
-  background-color: rgba(201, 147, 109, 0.6784313725);
+  background-color: #817E55;
 }
 
-.telefono-dropdown {
-  color: rgb(62, 62, 231);
-  text-decoration: underline;
+.titulo {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0;
+  padding: 50px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-image: url(imagenes/imagen-titulo.jpg);
+  background-size: cover;
+  background-position: 50% 80%;
+  color: white;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr) auto;
+  grid-template-areas: "direccion direccion direccion" "proyeccion proyeccion proyeccion" "footer footer footer";
+}
+
+.direccion {
+  grid-area: direccion;
+  margin: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+.proyeccion {
+  grid-area: proyeccion;
+  margin: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (min-width: 400px) {
+  .titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 4rem;
+    padding: 120px;
+    background-position: 50% 82%;
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

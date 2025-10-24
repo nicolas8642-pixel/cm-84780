@@ -1,26 +1,4 @@
 @import 'variables';
-.dropdown-item:hover {
-    display: flex;
-    background-color:  #c9936dad;
-    width: 13em;
-    height: 2em;
-    border-color: black;
-    border: 4px;
-    border-radius: 2px;
+@import 'navbar-y-header';
+@import 'footer';
 
-
-}
-body {
-    background-color: beige;
-}
-
-.barra-de-navegacion {
-    background-color: #c9936dad;
-}
-.dropdown-menu {
-    background-color: #c9936dad;
-}
-.telefono-dropdown {
-    color: $color-hover-links;
-    text-decoration: underline;
-}
