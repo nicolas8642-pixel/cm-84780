@@ -1,6 +1,18 @@
 @use 'variables';
 @use 'navbar-y-header';
 @use 'footer';
+@use 'main';
+@use 'media-queries';
 
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 
+}
+
+footer {
+    margin-top: auto;
+}
