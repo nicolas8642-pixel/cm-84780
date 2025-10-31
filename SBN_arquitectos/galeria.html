@@ -1,12 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>galeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="style.css">
+  </head>    
+   
+
+</html>
 <body>
-    
+
+
+  <!-- header -->
+<header class="header-galeria">
+  <h1 class="galeria">Galeria de proyectos</h1>
+
+<section class="galeria-botones">
+
+  <!-- dropdown 80B-11 -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">80B-11</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#dron-80b11">Dron</a></li>
+    <li><a class="dropdown-item" data-bs-toggle="collapse"   href="#exterior-80b11">Exterior</a></li>                                                 
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#interior-80b11">Interior</a></li>                                         
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="tel: +5492944212901">Asesoramiento</a></li>
+  </ul>
+</div>
+
+<!-- dropdown A1-2 -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">A1-2</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <a class="dropdown-item" data-bs-toggle="collapse" href="#dron-a12">Dron</a> 
+
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#exterior-a12">Exterior</a></li>
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#interior-a12">Interior</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="tel: +5492944212901">Asesoramiento</a></li>
+  </ul>
+</div>
+
+<!-- dropdown A36 -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">A36</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#dron-a36">Dron</a></li>
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#exterior-a36">Exterior</a></li>
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#interior-a36">Interior</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="tel:+5492944212901">Asesoramiento</a></li>
+  </ul>
+</div>
+
+<!-- dropdown Q12 -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Q12</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#dron-q12">Dron</a></li>
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#exterior-q12">Exterior</a></li>
+    <li><a class="dropdown-item" data-bs-toggle="collapse" href="#interior-q12">Interior</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="tel:+5492944212901">Asesoramiento</a></li>
+  </ul>
+</div>
+</section>
+</header>
+
+
+<!-- main -->
+
+
+<!-- acordion de  80B-11 -->
+<main>
+<div class="accordion " id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button   class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dron-80b11" aria-expanded="true" aria-controls="collapseOne"> 
+        80B-11 | Imagenes de dron
+      </button>
+    </h2>
+    <div id="dron-80b11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body " >
+        <img src="imagenes/80B-11-dron.jpg" alt="Imagen de dron del lote  80B-11 (vista de arriba)" >
+        <img src="imagenes/80B-11-dron1.jpg" alt="Imagen de dron del lote  80B-11 (vista del frente)">
+        <img src="imagenes/80B11-dron2.jpg" alt="Imagen de dron del lote  80B-11 (vista con fondo de montañas)">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exterior-80b11" aria-expanded="false" aria-controls="collapseTwo">
+        80B-11 | imagenes de exterior
+      </button>
+    </h2>
+    <div id="exterior-80b11" class="accordion-collapse collapse" data-bs-parent="#accordionExample" > 
+      <div class="accordion-body" >
+        <img src="imagenes/80b11 - exteriores.jpg" alt="garage y frente de la casa">
+        <img src="imagenes/80b11 - exterior 2.jpg" alt="vista desde el jardin">
+        <img src="imagenes/80b11 - exterior1.jpg" alt="vista izquierda">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#interior-80b11" aria-expanded="false" aria-controls="collapseThree">
+        80B-11 | Imagenes de Interior
+      </button>
+    </h2>
+    <div id="interior-80b11" class="accordion-collapse collapse" data-bs-parent="#accordionExample"> 
+      <div class="accordion-body">
+        <img src="imagenes/80b11 - interiores1.jpg" alt="iamgen escalera">
+        <img src="imagenes/80b11 - interiores2.jpg" alt="pileta techada">
+        <img src="imagenes/80b11 - interiores3.jpg" alt=" cocina">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- acordion de A1-2 -->
+
+<div class="accordion " id="accordionA12">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button   class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dron-a12" aria-expanded="true" aria-controls="collapseOne"> 
+        A1-2 | Imagenes de dron
+      </button>
+    </h2>
+    <div id="dron-a12" class="accordion-collapse collapse" data-bs-parent="#accordionA12">
+      <div class="accordion-body " >
+        <img src="imagenes/A12 - dron.jpg" alt="vista desde arriba mirando al norte">
+        <img src="imagenes/A12 - dron1.jpg" alt="vista deste arriba mirando al sur">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exterior-a12" aria-expanded="false" aria-controls="collapseTwo">
+        A1-2 | imagenes de exterior
+      </button>
+    </h2>
+    <div id="exterior-a12" class="accordion-collapse collapse" data-bs-parent="#accordionA12" > 
+      <div class="accordion-body" >
+        <img src="imagenes/A12 - exterior.jpg" alt="vista entrada de la casa">
+        <img src="imagenes/A12 - exterior1.jpg" alt="vista desde el jardin">
+        <img src="imagenes/A12 - exterior2.jpg" alt="vista del porche">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#interior-a12" aria-expanded="false" aria-controls="collapseThree">
+        A1-2 | Imagenes de Interior
+      </button>
+    </h2>
+    <div id="interior-a12" class="accordion-collapse collapse" data-bs-parent="#accordionA12"> 
+      <div class="accordion-body">
+        <img src="imagenes/a12-interior.jpg" alt="sala principal">
+        <img src="imagenes/a12-interior1.jpg" alt="living/sala de estar">
+        <img src="imagenes/a12-interior2.jpg" alt="escalera">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- acordion A36 -->
+
+<div class="accordion " id="accordionA36">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button   class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dron-a36" aria-expanded="true" aria-controls="collapseOne"> 
+        A36 | Imagenes de dron
+      </button>
+    </h2>
+    <div id="dron-a36" class="accordion-collapse collapse" data-bs-parent="#accordionA36">
+      <div class="accordion-body " >
+        <img src="imagenes/A36 - dron.jpg" alt="vista de dron">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exterior-a36" aria-expanded="false" aria-controls="collapseTwo">
+        A36 | imagenes de exterior
+      </button>
+    </h2>
+    <div id="exterior-a36" class="accordion-collapse collapse" data-bs-parent="#accordionA36" > 
+      <div class="accordion-body" >
+        <img src="imagenes/a36-exterior.jpg" alt="">
+        <img src="imagenes/a36-exterior2.jpg" alt="">
+        <img src="imagenes/a36-exterior1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#interior-a36" aria-expanded="false" aria-controls="collapseThree">
+        A36 | Imagenes de Interior
+      </button>
+    </h2>
+    <div id="interior-a36" class="accordion-collapse collapse" data-bs-parent="#accordionA36"> 
+      <div class="accordion-body">
+        <img src="imagenes/a36-interiores.jpg" alt="pasillo con cuadro">
+        <img src="imagenes/a36-interiores1.jpg" alt="comedor con isla">
+        <img src="imagenes/a36-interiores2.jpg" alt="living/sala de estar">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- acordion Q12 -->
+
+<div class="accordion " id="accordionQ12">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button   class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dron-q12" aria-expanded="true" aria-controls="collapseOne"> 
+        Q12 | Imagenes de dron
+      </button>
+    </h2>
+    <div id="dron-q12" class="accordion-collapse collapse" data-bs-parent="#accordionQ12">
+      <div class="accordion-body " >
+        <img src="imagenes/q12-dron.jpg" alt="vista desde arriba">
+        <img src="imagenes/q12-dron1.jpg" alt="vista de frente (lejos)">
+        <img src="imagenes/q12-dron2.jpg" alt="vista de frente (cerca)">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exterior-q12" aria-expanded="false" aria-controls="collapseTwo">
+        Q12 | imagenes de exterior
+      </button>
+    </h2>
+    <div id="exterior-q12" class="accordion-collapse collapse" data-bs-parent="#accordionQ12" > 
+      <div class="accordion-body" >
+        <img src="imagenes/q12 - exterior.jpg" alt="">
+        <img src="imagenes/q12 - exterior1.jpg" alt="">
+        <img src="imagenes/q12 - exterior 2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#interior-q12" aria-expanded="false" aria-controls="collapseThree">
+        Q12 | Imagenes de Interior
+      </button>
+    </h2>
+    <div id="interior-q12" class="accordion-collapse collapse" data-bs-parent="#accordionQ12"> 
+      <div class="accordion-body">
+        <img src="imagenes/q12 - interior.jpg" alt="">
+        <img src="imagenes/q12 - interior1.jpg" alt="">
+        <img src="imagenes/q12 - interior2.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- footer -->
+<footer>
+<div class="card redes" style="width: 18rem;">
+  <div class="card-header ">
+    Redes sociales
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item hover-fill"> 
+      <a href="https://www.instagram.com/nye_nico">Instagram</a>
+    </li>
+    <li class="list-group-item hover-fill">
+      <a href="https://www.flickr.com/photos/162823966@N03/albums">Flickr</a>
+    </li>
+    <li class="list-group-item hover-fill">
+      <a href="mailto:nyenicolas@gmail.com">G-mail</a>
+    </li>
+  </ul>
+</div>
+
+  <a href="index.html" class="boton-inicio btn btn-outline-secondary">Volver</a>
+
+</footer>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>  

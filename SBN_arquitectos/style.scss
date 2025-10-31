@@ -5,14 +5,97 @@
 @use 'media-queries';
 
 
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+/* mapa.html */
+
+main {
+    display: block;
+    width: 100vw;  
+    overflow: hidden;
+  }
+
+  main img {
+    display: block;
+    width: 100%;                  
+    height: auto;                  
+  }
+
+  .button {
+  display: inline-block;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  padding: 20px;
+  background: #54925F;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 10px;
+  height: 20px;
+  width: 30px;
+  text-align: center;
+  justify-content: center;
+  z-index: 2;
 
 }
 
-footer {
-    margin-top: auto;
+.button:hover {
+  background: #769F73;
 }
+
+header {
+    margin-top: 0px;
+}
+.mapa-titulo {
+    text-align: center;
+    justify-content: center;
+    margin: 40px;
+    font-size: 30px;
+}
+
+
+/* galeria.html */
+.btn-danger {
+  --bs-btn-bg: #54925F;
+  --bs-btn-border-color: #54925F;
+  --bs-btn-hover-bg: #769F73;
+  --bs-btn-hover-border-color: #769F73;
+  --bs-btn-active-bg: #466F4B;
+  --bs-btn-active-border-color: #466F4B;
+}
+
+
+.galeria {
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.header-galeria {
+  background-color: #466F4B;
+  
+}
+.galeria-botones {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div div img {
+  margin: 10px;
+}
+
+.accordion-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #A69580;
+}
+
+
+.boton-inicio {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #BF7636;
+} 

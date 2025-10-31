@@ -13,7 +13,7 @@
 .administracion {
     display: flex;
     grid-area: direccion;
-    background-image: url(imagenes/proyeccion-direccion.jpg);
+    background-image: url(imagenes/proyeccion-direccion.jpg); /* imagen de dron (fondo de leyenda: Direccion y Administración de obra ) */
     background-size: cover; 
     text-align: center;
     align-items: center;
@@ -27,7 +27,7 @@
 .diseño {
     display: flex;
     grid-area: proyeccion;
-    background-image: url(imagenes/diseño.jpg);
+    background-image: url(imagenes/diseño.jpg); /* imagen de dron (fondo de la leyenda: Proyección y Diseño de interiores ) */
     background-size: cover;
     background-position: 50% 10%;
     color: white;
@@ -36,4 +36,5 @@
     align-items: center;
     justify-content: center;
     font-size: 30px;
+
 }
