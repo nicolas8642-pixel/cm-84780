@@ -98,4 +98,67 @@ div div img {
   bottom: 20px;
   right: 20px;
   color: #BF7636;
+  z-index: 1;
 } 
+
+
+/* nosotros.html*/
+
+.nosotros-titulo {
+  padding: 40px;
+  background-color: #466F4B;
+  text-align: center;
+}
+
+.nosotros-subtitulo {
+  margin: 20px;
+  margin-top: 40px;
+  margin-left: 5%;
+
+}
+
+.nosotros-parrafo {
+  font-size: 15px;
+  margin: 5%;
+}
+
+/* proveedores.html */
+
+.proveedores-titulo {
+  background-color: #466F4B;
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+}
+
+.logo-palm {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  scale: .9;
+  transition: transform 0.5s ease;
+
+}
+.logo-palm:hover {
+  transform: scale(1.1);
+
+}
+
+.proveedores-subtitulo {
+  margin: 20px;
+  margin-bottom: 0;
+  padding-left: 8%;
+  padding-top: 40px;
+
+}
+
+.logo-ecowindows {
+  display: flex;
+  justify-content: center;
+  scale: .9;
+  transition: transform .5s ease;
+}
+
+.logo-ecowindows:hover {
+  transform: scale(1.1);
+}
